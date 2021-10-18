@@ -1,0 +1,32 @@
+header {
+    background-color: $main-blue-color;
+    padding: 1rem 0;
+    .container {
+        .header-top {
+            .social-media {
+                a {
+                    padding-right: 1rem;
+                    i {
+                        color: white;
+                        &:hover {
+                            color: $main-orange-color;
+                        }
+                    }
+                }
+            }
+        }
+        .phone-mail {
+            a {
+                font-size: 1rem;
+                padding-right: 0.6rem;
+                color: white;
+                letter-spacing: 0.04rem;
+                text-decoration: none;
+                i {
+                    color: $main-orange-color;
+                    padding-right: 0.2rem;
+                }
+            }
+        }
+    }
+}

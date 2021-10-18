@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: #3648B2;
+  padding: 1rem 0;
+}
+
+header .container .header-top .social-media a {
+  padding-right: 1rem;
+}
+
+header .container .header-top .social-media a i {
+  color: white;
+}
+
+header .container .header-top .social-media a i:hover {
+  color: #FF4747;
+}
+
+header .container .phone-mail a {
+  font-size: 1rem;
+  padding-right: 0.6rem;
+  color: white;
+  letter-spacing: 0.04rem;
+  text-decoration: none;
+}
+
+header .container .phone-mail a i {
+  color: #FF4747;
+  padding-right: 0.2rem;
+}
+
+main #page-title-section {
+  background-image: url(../my-image/bg-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-blend-mode: multiply;
+  background-color: #585555;
+  padding: 10rem 0;
+}
+
+main #page-title-section .container .title h1 {
+  color: white;
+  font-weight: bold;
+}
+
+main #page-title-section .container .subtitle ul {
+  padding-left: 0;
+}
+
+main #page-title-section .container .subtitle ul li {
+  display: inline-block;
+  color: white;
+}
+
+main #page-title-section .container .subtitle ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main #page-title-section .container .subtitle ul li a:hover {
+  color: #FF4747;
+}
+
+main #product-section {
+  padding-top: 5rem;
+}
+
+main #product-section .container .inputs input {
+  border: 1px solid gray;
+  border-radius: 1.2rem;
+  padding: 0.5rem;
+  width: 15rem;
+  margin-right: 1rem;
+}
+
+main #product-section .container .inputs input::-webkit-input-placeholder {
+  padding-left: 0.2rem;
+}
+
+main #product-section .container .inputs input:-ms-input-placeholder {
+  padding-left: 0.2rem;
+}
+
+main #product-section .container .inputs input::-ms-input-placeholder {
+  padding-left: 0.2rem;
+}
+
+main #product-section .container .inputs input::placeholder {
+  padding-left: 0.2rem;
+}
+
+main #product-section .container .inputs select {
+  border: 1px solid gray;
+  border-radius: 1.2rem;
+  padding: 0.5rem;
+  width: 15rem;
+  margin-right: 1rem;
+}
+
+main #product-section .container h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-weight: 400;
+}
+
+main #product-section .container .categories {
+  padding-top: 1.5rem;
+}
+
+main #product-section .container .categories h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-weight: bolder;
+}
+
+main #product-section .container .categories ul li {
+  color: gray;
+  margin: 1rem 0;
+}
+
+main #product-section .container .categories ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main #product-section .container .filter h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-weight: bolder;
+}
+
+main #product-section .container .filter-btn {
+  margin-top: 1rem;
+}
+
+main #product-section .container .filter-btn a {
+  text-decoration: none;
+  padding: 0.6rem 2rem;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+  background-color: #FF4747;
+  border-radius: 20px;
+}
+
+main #product-section .container .product {
+  margin-top: 1rem;
+  border-top: 1px solid gray;
+  background-color: white;
+}
+
+main #product-section .container .product .card {
+  margin-top: 2rem;
+  background-color: #e7e5e5;
+  position: relative;
+}
+
+main #product-section .container .product .card .icons {
+  margin: 0 3.5rem;
+  -webkit-transform: translateY(15rem);
+          transform: translateY(15rem);
+  position: absolute;
+}
+
+main #product-section .container .product .card .icons i {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+main #product-section .container .product .card p {
+  font-weight: 500;
+}
+
+main #product-section .container .product .card:hover .icons {
+  margin: 0 3.5rem;
+  -webkit-transform: translateY(14.5rem);
+          transform: translateY(14.5rem);
+}
+
+main #product-section .container .product .card:hover .icons i {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+main #product-section .container .product .card:hover .icons i:hover {
+  color: white;
+  background-color: #FF4747;
+}
+
+footer {
+  position: relative;
+}
+
+footer #scrollToTopBtn {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  border: none;
+}
+
+footer #scrollToTopBtn a {
+  text-decoration: none;
+  background-color: #FF4747;
+  color: white;
+  padding: 0.3rem 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 2rem;
+}
+
+nav {
+  padding: 2rem 0;
+}
+
+nav .container .nav-section .navbar ul li {
+  display: inline-block;
+}
+
+nav .container .nav-section .navbar ul li a {
+  text-decoration: none;
+  color: black;
+  padding-right: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+nav .container .nav-section .btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  background-color: #FF4747;
+  padding: 0.5rem 1.3rem;
+  border-radius: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+nav .container .nav-section .btn a:hover {
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */

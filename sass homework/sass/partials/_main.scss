@@ -1,0 +1,137 @@
+main {
+    #page-title-section {
+        background-image: url(../my-image/bg-img.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-blend-mode: multiply;
+        background-color: rgb(88, 85, 85);
+        padding: 10rem 0;
+        .container {
+            .title {
+                h1 {
+                    color: white;
+                    font-weight: bold;
+                }
+            }
+            .subtitle {
+                ul {
+                    padding-left: 0;
+                    li {
+                        display: inline-block;
+                        color: white;
+                        a {
+                            color: white;
+                            text-decoration: none;
+                            &:hover {
+                                color: $main-orange-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #product-section {
+        padding-top: 5rem;
+        .container {
+            .inputs {
+                input {
+                    @include inp;
+                    &::placeholder {
+                        padding-left: 0.2rem;
+                    }
+                }
+                select {
+                    @include inp;
+                }
+            }
+            h5 {
+                display: flex;
+                justify-content: end;
+                font-weight: 400;
+            }
+            .categories {
+                padding-top: 1.5rem;
+                h5 {
+                    display: flex;
+                    justify-content: start;
+                    font-weight: bolder;
+                }
+                ul {
+                    li {
+                        color: gray;
+                        margin: 1rem 0;
+                        a {
+                            text-decoration: none;
+                            color: black;
+                        }
+                    }
+                }
+            }
+            .filter {
+                h5 {
+                    display: flex;
+                    justify-content: start;
+                    font-weight: bolder;
+                }
+            }
+            .filter-btn {
+                margin-top: 1rem;
+                a {
+                    text-decoration: none;
+                    padding: 0.6rem 2rem;
+                    color: white;
+                    font-weight: bold;
+                    font-style: italic;
+                    letter-spacing: 0.1rem;
+                    background-color: $main-orange-color;
+                    border-radius: 20px;
+                }
+                span {}
+            }
+            .product {
+                margin-top: 1rem;
+                border-top: 1px solid gray;
+                background-color: white;
+                .card {
+                    margin-top: 2rem;
+                    background-color: rgb(231, 229, 229);
+                    position: relative;
+                    .icons {
+                        margin: 0 3.5rem;
+                        transform: translateY(15rem);
+                        position: absolute;
+                        i {
+                            background-color: white;
+                            padding: 1rem;
+                            border-radius: 50%;
+                            opacity: 0;
+                            transition: all 0.5s linear;
+                        }
+                    }
+                    p {
+                        font-weight: 500;
+                    }
+                    &:hover {
+                        .icons {
+                            margin: 0 3.5rem;
+                            transform: translateY(14.5rem);
+                            i {
+                                background-color: white;
+                                padding: 1rem;
+                                border-radius: 50%;
+                                opacity: 1;
+                                &:hover {
+                                    color: white;
+                                    background-color: $main-orange-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
